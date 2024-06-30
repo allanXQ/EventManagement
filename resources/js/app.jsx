@@ -8,8 +8,8 @@ import MessageModal from "./components/messages";
 import { ThemeProvider } from "@mui/material";
 import useStyledTheme from "./Hooks/useStyledTheme";
 import CreateBooking from "./pages/Bookings/create";
-import CreateRoom from "./pages/rooms/create";
-import EditRoom from "./pages/rooms/edit";
+import CreateRoom from "./pages/events/create";
+import EditRoom from "./pages/events/edit";
 
 function App() {
     const theme = useStyledTheme();
